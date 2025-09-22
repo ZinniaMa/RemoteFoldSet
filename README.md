@@ -17,8 +17,7 @@ Read the [paper](#) (link coming soon).
 
 To ensure that the selected starting structures were distributed across the known structural space, we sampled proteins from clusters of the [CATH dataset](https://www.cathdb.info/). As shown in the workflow, we then used [ProteinMPNN](https://github.com/dauparas/ProteinMPNN) to generate diverse alternative sequences for each selected structure, and refolded these generated sequences using [AlphaFold3](https://github.com/google-deepmind/alphafold3) to ensure that they could fold back into the originally selected structure. Finally, we performed a greedy search (see [`greedysearch.ipynb`](notebooks/greedysearch.ipynb)) to optimize the diversity within each retained protein sequence set.
 
-You can download the current version of the dataset from [**`RemoteFoldSet_domain_to_seqs.pkl`**](saved/RemoteFoldSet_domain_to_seqs.pkl). It currently contains 90 protein sets, each comprising 16 sequences (1,440 sequences in total), with a mean sequence diversity of 0.74. The dataset is stored as a dictionary, where each key corresponds to the name of a CATH domain.
-Example:
+You can download the current version of the dataset from [**`RemoteFoldSet_domain_to_seqs.pkl`**](saved/RemoteFoldSet_domain_to_seqs.pkl). It currently contains 90 protein sets, each comprising 16 sequences (1,440 sequences in total), with a mean sequence diversity of 0.74. The dataset is stored as a dictionary, where each key corresponds to the name of a CATH domain:
 ```python
 {
   "3p5pa02": ["YRHWGATASVALLERLW...", "KPDMYQQSEVAKLVRDD...", ...],
