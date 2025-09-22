@@ -10,4 +10,7 @@ Read the [paper](#) (link coming soon).
 
   - Together with the dataset, we introduced the Structural Awareness (SA) score and the SA distance ratio, a pair of new metrics to assess pLM embeddings that is model-agnostic, unsupervised, and training-free.
 
-  - Based on these, we benchmarked widely used pLMs, including UniRep, ProGen2, CARP, ESM, and ProtTrans.  
+  - Based on these, we benchmarked widely used protein language models (pLMs), including UniRep, ProGen2, CARP, ESM, and ProtTrans.  
+
+## Dataset generation
+<img src="figs/workflow_ai4s_new.png" alt="workflow" width="400">
