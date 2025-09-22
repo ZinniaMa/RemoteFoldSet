@@ -6,4 +6,4 @@ Read the [paper](#) (link coming soon).
 
 
 ## Introduction
-  - In this work, we construct **RemoteFoldSet**, a dataset of proteins with **high structural similarity** but **low sequence identity**.
+  - In this work, we construct RemoteFoldSet, a dataset of proteins with high structural similarity but low sequence identity.
