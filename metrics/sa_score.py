@@ -6,11 +6,11 @@ def cosine_similarity(u, v):
     v = np.asarray(v)
     return np.dot(u, v) / (np.linalg.norm(u) * np.linalg.norm(v))
 
-def group_homogeneity(embedding_list, group_size=16):
+def group_sa_score(embedding_list, group_size=16):
     embedding_array = np.array(embedding_list)
     num_full_groups = len(embedding_array) // group_size
-    homogeneity_scores = []
-    
+    sa_scores = []
+
     for i in range(num_full_groups):
         group = embedding_array[i * group_size : (i + 1) * group_size]
         sims = []
@@ -20,6 +20,6 @@ def group_homogeneity(embedding_list, group_size=16):
             sim = cosine_similarity(u, v)
             sims.append(sim)
         avg_sim = np.mean(sims)
-        homogeneity_scores.append(avg_sim)
-    
-    return homogeneity_scores
+        sa_scores.append(avg_sim)
+
+    return sa_scores
