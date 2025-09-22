@@ -13,4 +13,4 @@ Read the [paper](#) (link coming soon).
   - Based on these, we benchmarked widely used protein language models (pLMs), including UniRep, ProGen2, CARP, ESM, and ProtTrans.  
 
 ## Dataset generation
-<img src="figs/workflow_ai4s_new.png" alt="workflow" width="400">
+<img src="figs/workflow_ai4s_new.png" alt="workflow" width="1600">
