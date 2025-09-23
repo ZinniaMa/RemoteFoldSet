@@ -49,7 +49,7 @@ We benchmarked several widely used pLMs on RemoteFoldSet. The models included in
 | ESM-2 (3B)       | BERT-style    | MLM        | 3B   | 36                  | 2560          |
 | ESM-2 (15B)      | BERT-style    | MLM        | 15B  | 48                  | 5120          |
 | ProtBert         | BERT-style    | MLM        | 420M | 30                  | 1024          |
-| ProtT5 (XL-U50)  | T5-style      | Span MLM   | 3B   | 24 (enc) / 24 (dec) | 1024          |
+| ProtT5 (XL-U50)  | T5-style      | Span MLM   | 3B   | 24e/24d | 1024          |
 
 
 The corresponding precomputed embeddings for each model have been released in the [`embeddings/`](embeddings/) directory.
