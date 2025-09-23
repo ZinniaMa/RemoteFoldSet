@@ -35,7 +35,7 @@ We evaluate structural awareness in pLMs using two model-agnostic, unsupervised 
 Read the full definitions of the SA Score and SA Distance Ratio in Sections 3.2 and A.3 of the paper.
 
 ## Experiments
-We benchmarked several widely used pLMs on RemoteFoldSet. The models included in our benchmark are listed in the table below.
+We benchmarked several widely used pLMs on RemoteFoldSet. The models included in our benchmark are listed in the table below:
 
 | Model            | Architecture  | Objective  | Size | Layers              | Embedding Dim |
 | :----------------: | :-------------: | :----------: | :----: | :---------: | :-------------: |
