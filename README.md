@@ -53,3 +53,8 @@ We benchmarked several widely used pLMs on RemoteFoldSet. The models included in
 
 
 The corresponding precomputed embeddings for each model have been released in the [`embeddings/`](embeddings/) directory.
+
+We also provide example notebooks for reproducing key experiments from the paper, including:
+- Computing SA score and SA distance ratio – see [`getSAscore.ipynb`](notebooks/getSAscore.ipynb)
+- Layer-wise structural awareness analysis – see [`getSAlayerwise.ipynb`](notebooks/getSAlayerwise.ipynb)
+- t-SNE visualization of embeddings from different models – see [`tsneplot.ipynb`](notebooks/tsneplot.ipynb)
