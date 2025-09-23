@@ -7,9 +7,16 @@ $$
 $$
 
 
-## SA distance ratio
+## SA score
 
 For each structural set \( S_g = \{x_i\}_{i=1}^{16} \), the model \( f \) produces sequence embeddings \( z_i = f(x_i) \), which are first mean-centered to remove global bias.
+After mean-centering, we compute the pairwise cosine similarities and take their average as the SA score for that set:
+$$
+\mathrm{SA}(S) = \frac{2}{|S|(|S|-1)} \sum_{i<j} \frac{\langle z_i, z_j \rangle}{\|z_i\| \, \|z_j\|}
+$$
+
+## SA distance ratio
+
 Let \( G \) denote the total number of sets, and define the group mean embedding as \( \mu_g\).  
 Using the distance as one minus cosine similarity, we compute the average intra- and inter-group distances, and take their ratio as the SA distance ratio:
 
