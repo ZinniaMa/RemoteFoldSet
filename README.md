@@ -39,17 +39,17 @@ We benchmarked several widely used pLMs on RemoteFoldSet. The models included in
 
 | Model            | Architecture  | Objective  | Size | Layers              | Embedding Dim |
 | :----------------: | :-------------: | :----------: | :----: | :---------: | :-------------: |
-| UniRep           | mLSTM         | Next-token | 18M  | 1                   | 1900          |
-| ProGen2 (base)   | GPT-style     | Next-token | 764M | 27                  | 1536          |
-| ProGen2 (large)  | GPT-style     | Next-token | 2.7B | 32                  | 2560          |
-| ProGen2 (xlarge) | GPT-style     | Next-token | 6.4B | 32                  | 4096          |
-| CARP (640M)      | ByteNet-style | MLM        | 640M | 30                  | 1280          |
-| ESM-1b           | BERT-style    | MLM        | 650M | 33                  | 1280          |
-| ESM-2 (650M)     | BERT-style    | MLM        | 650M | 33                  | 1280          |
-| ESM-2 (3B)       | BERT-style    | MLM        | 3B   | 36                  | 2560          |
-| ESM-2 (15B)      | BERT-style    | MLM        | 15B  | 48                  | 5120          |
-| ProtBert         | BERT-style    | MLM        | 420M | 30                  | 1024          |
-| ProtT5 (XL-U50)  | T5-style      | Span MLM   | 3B   | 24e/24d | 1024          |
+| [UniRep](https://github.com/churchlab/UniRep)           | mLSTM         | Next-token | 18M  | 1                   | 1900          |
+| [ProGen2 (base)](https://github.com/salesforce/progen)   | GPT-style     | Next-token | 764M | 27                  | 1536          |
+| [ProGen2 (large)](https://github.com/salesforce/progen)  | GPT-style     | Next-token | 2.7B | 32                  | 2560          |
+| [ProGen2 (xlarge)](https://github.com/salesforce/progen) | GPT-style     | Next-token | 6.4B | 32                  | 4096          |
+| [CARP (640M)](https://github.com/microsoft/protein-sequence-models)      | ByteNet-style | MLM        | 640M | 30                  | 1280          |
+| [ESM-1b](https://github.com/facebookresearch/esm)           | BERT-style    | MLM        | 650M | 33                  | 1280          |
+| [ESM-2 (650M)](https://github.com/facebookresearch/esm)     | BERT-style    | MLM        | 650M | 33                  | 1280          |
+| [ESM-2 (3B)](https://github.com/facebookresearch/esm)       | BERT-style    | MLM        | 3B   | 36                  | 2560          |
+| [ESM-2 (15B)](https://github.com/facebookresearch/esm)      | BERT-style    | MLM        | 15B  | 48                  | 5120          |
+| [ProtBert](https://github.com/agemagician/ProtTrans)         | BERT-style    | MLM        | 420M | 30                  | 1024          |
+| [ProtT5 (XL-U50)](https://github.com/agemagician/ProtTrans)  | T5-style      | Span MLM   | 3B   | 24e/24d | 1024          |
 
 
 The corresponding precomputed embeddings for each model have been released in the [`embeddings/`](embeddings/) directory.
