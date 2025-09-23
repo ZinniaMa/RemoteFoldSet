@@ -8,9 +8,9 @@ Read the [paper](#) (link coming soon).
 ## Introduction
   - In this work, we constructed RemoteFoldSet, a dataset of proteins with high structural similarity but low sequence identity. The dataset comprises 90 protein sets representing diverse folds, with alternative low-identity sequences generated via ProteinMPNN and filtered for foldability using AlphaFold3.
 
-  - Together with the dataset, we introduced the Structural Awareness (SA) score and the SA distance ratio, a pair of new metrics for assessing pLM embeddings, which are model-agnostic, unsupervised, and training-free.
+  - Together with the dataset, we introduced the Structural Awareness (SA) score and the SA distance ratio, a pair of new metrics for assessing protein language model (pLM) embeddings, which are model-agnostic, unsupervised, and training-free.
 
-  - Based on these, we benchmarked widely used protein language models (pLMs), including UniRep, ProGen2, CARP, ESM, and ProtTrans.  
+  - Based on these, we benchmarked widely used pLMs, including UniRep, ProGen2, CARP, ESM, and ProtTrans.  
 
 ## Dataset generation
 <img src="figs/workflow_ai4s_new.png" alt="workflow" width="1600">
