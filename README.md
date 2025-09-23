@@ -38,7 +38,7 @@ Read the full definitions of the SA Score and SA Distance Ratio in Sections 3.2 
 We benchmarked several widely used pLMs on RemoteFoldSet. The models included in our benchmark are listed in the table below.
 
 | Model            | Architecture  | Objective  | Size | Layers              | Embedding Dim |
-| ---------------- | ------------- | ---------- | ---- | ------------------- | ------------- |
+| :----------------: | :-------------: | :----------: | :----: | :-------------------: | :-------------: |
 | UniRep           | mLSTM         | Next-token | 18M  | 1                   | 1900          |
 | ProGen2 (base)   | GPT-style     | Next-token | 764M | 27                  | 1536          |
 | ProGen2 (large)  | GPT-style     | Next-token | 2.7B | 32                  | 2560          |
