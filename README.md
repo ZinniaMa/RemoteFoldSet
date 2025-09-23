@@ -32,7 +32,7 @@ We evaluate structural awareness in pLMs using two model-agnostic, unsupervised 
 
 - [**SA Distance Ratio**](metrics/sa_distance_ratio.py): Compares intra-set to inter-set distances to assess discriminability of the embeddings.
 
-Read the full definitions of the SA Score and SA Distance Ratio in Sections 3.2 and A.3 of the paper, or refer to [`metrics.md`](metrics/metrics.md).
+Read the full definitions of the SA Score and SA Distance Ratio in Sections 3.2 and A.3 of the paper.
 
 ## Experiments
 We benchmarked several widely-used pLMs on RemoteFoldSet. 
