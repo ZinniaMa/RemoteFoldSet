@@ -2,7 +2,7 @@
 
 This repository provides the dataset, metrics, and analysis code for **RemoteFoldSet**.  
 
-Read the [preprint](https://doi.org/10.1101/2025.09.23.678152).  
+Read the bioRxiv [preprint](https://doi.org/10.1101/2025.09.23.678152).  
 
 
 ## Introduction
